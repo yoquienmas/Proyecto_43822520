@@ -1,0 +1,91 @@
+body {
+    background-color: #eaf2e3;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.descripcion {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+.mi-div {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+header {
+    background-color: #FFDA94;
+    color: #e2a42d;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #FFDA94;
+    color: #e2a42d;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icon img:hover {
+    transform: scale(1.2);
+}
+
+nav {
+    background-color: #FFDA94;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #e2a42d;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #FFDA94;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border: 3px solid #FFDA94;
+    border-radius: 10px;
+}
