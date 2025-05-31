@@ -1,0 +1,28 @@
+CRITICAL - 2025-05-24 09:19:43 --> Invalid file: front7/quienes_somos.php
+#0 C:\xampp\htdocs\ProT2_43822520\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front7/quienes_...')
+#1 C:\xampp\htdocs\ProT2_43822520\system\Common.php(1119): CodeIgniter\View\View->render('front7/quienes_...', Array, true)
+#2 C:\xampp\htdocs\ProT2_43822520\app\Controllers\Home.php(16): view('front7/quienes_...')
+#3 C:\xampp\htdocs\ProT2_43822520\system\CodeIgniter.php(918): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\ProT2_43822520\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ProT2_43822520\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ProT2_43822520\index.php(32): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-24 09:19:46 --> Invalid file: front7/quienes_somos.php
+#0 C:\xampp\htdocs\ProT2_43822520\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front7/quienes_...')
+#1 C:\xampp\htdocs\ProT2_43822520\system\Common.php(1119): CodeIgniter\View\View->render('front7/quienes_...', Array, true)
+#2 C:\xampp\htdocs\ProT2_43822520\app\Controllers\Home.php(16): view('front7/quienes_...')
+#3 C:\xampp\htdocs\ProT2_43822520\system\CodeIgniter.php(918): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\ProT2_43822520\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ProT2_43822520\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ProT2_43822520\index.php(32): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2025-05-24 20:45:44 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\ProT2_43822520\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\ProT2_43822520\system\Debug\Toolbar.php(498): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProT2_43822520\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\ProT2_43822520\app\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\ProT2_43822520\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\ProT2_43822520\system\CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\ProT2_43822520\index.php(32): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,10 @@
+CRITICAL - 2025-05-25 16:00:16 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\ProT2_43822520\system\Debug\Toolbar\Views\toolbar.tpl.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\ProT2_43822520\system\Debug\Toolbar.php(498): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ProT2_43822520\system\Debug\Toolbar.php(455): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\ProT2_43822520\app\Config\Events.php(50): CodeIgniter\Debug\Toolbar->respond()
+#4 [internal function]: CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\ProT2_43822520\system\Events\Events.php(188): call_user_func(Object(Closure))
+#6 C:\xampp\htdocs\ProT2_43822520\system\CodeIgniter.php(293): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\ProT2_43822520\index.php(32): CodeIgniter\CodeIgniter->run()
+#8 {main}
